@@ -221,31 +221,39 @@ Access Instructions
 
 The Nutanix Hosted POC environment can be accessed a number of different ways:
 
-Citrix XenDesktop
+Parallels VDI
 .................
 
-https://citrixready.nutanix.com - *Accessible via the Citrix Receiver client or HTML5*
+Login to: https://xld-uswest1.nutanix.com (for PHX) or https://xld-useast1.nutanix.com (for RTP)
 
 **Nutanix Employees** - Use your NUTANIXDC credentials
-
 **Non-Employees** - **Username:** POCxxx-User01 (up to POCxxx-User20), **Password:** *<Provided by Instructor>*
 
-Employee Pulse Secure VPN
+Pulse Secure VPN
 ..........................
 
-https://sslvpn.nutanix.com - Use your CORP credentials
+To download the client: login to https://xlv-uswest1.nutanix.com or https://xlv-useast1.nutanix.com - **Username:** POCxxx-User01 (up to POCxxx-User20), **Password:** *<Provided by Instructor>*
 
-Non-Employee Pulse Secure VPN
-..............................
+Download and install the client.
 
-https://lab-vpn.nutanix.com - **Username:** POCxxx-User01 (up to POCxxx-User20), **Password:** *<Provided by Instructor>*
+In Pulse Secure Client, **Add** a connection:
 
-Under **Client Application Sessions**, click **Start** to the right of **Pulse Secure** to download the client.
-
-Install and open **Pulse Secure**.
-
-Add a connection:
+For PHX:
 
 - **Type** - Policy Secure (UAC) or Connection Server
-- **Name** - HPOC VPN
-- **Server URL** - lab-vpn.nutanix.com
+- **Name** - X-Labs - PHX
+- **Server URL** - xlv-uswest1.nutanix.com
+
+For RTP:
+
+- **Type** - Policy Secure (UAC) or Connection Server
+- **Name** - X-Labs - RTP
+- **Server URL** - xlv-useast1.nutanix.com
+
+
+Nutanix Version Info
+++++++++++++++++++++
+
+- **AHV Version** - AHV 20170830.185 (5.9+/5.10+)
+- **AOS Version** - 5.10.2
+- **PC Version** - 5.10.2
