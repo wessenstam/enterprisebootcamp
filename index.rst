@@ -27,12 +27,14 @@
   :name: _buckets
   :hidden:
 
-  buckets/buckets
+  objects_create/objects_create
+  objects_access_tools/objects_access_tools
+  objects_create_scripts/objects_create_scripts
 
 .. toctree::
   :maxdepth: 2
-  :caption: Cloud Native
-  :name: _cloud_native
+  :caption: Cloud Native App
+  :name: _cloud_native_app
   :hidden:
 
   buckets/buckets

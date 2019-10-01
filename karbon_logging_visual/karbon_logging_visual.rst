@@ -1,5 +1,3 @@
-.. title:: Karbon Logging & Visualization
-
 .. _karbon_logging_visual:
 
 -------------------------------

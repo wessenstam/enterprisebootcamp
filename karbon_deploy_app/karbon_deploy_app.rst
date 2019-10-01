@@ -1,5 +1,3 @@
-.. title:: Karbon Deploy Application
-
 .. _karbon_deploy_app:
 
 --------------------------

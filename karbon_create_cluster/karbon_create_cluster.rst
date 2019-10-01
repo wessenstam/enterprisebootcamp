@@ -1,5 +1,3 @@
-.. title:: Karbon Create Cluster
-
 .. _karbon_create_cluster:
 
 ---------------------
