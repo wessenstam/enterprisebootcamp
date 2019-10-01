@@ -6,7 +6,10 @@
   :name: _era
   :hidden:
 
-  era/era
+  era_deploy_and_register/era_deploy_and_register
+  era_provision_postgresdb/era_provision_postgresdb
+  era_clone_postgresdb/era_clone_postgresdb
+  era_rest_api/era_rest_api
 
 .. toctree::
   :maxdepth: 2
@@ -14,7 +17,9 @@
   :name: _karbon
   :hidden:
 
-  karbon/karbon
+  karbon_create_cluster/karbon_create_cluster
+  karbon_deploy_app/karbon_deploy_app
+  karbon_logging_visual/karbon_logging_visual
 
 .. toctree::
   :maxdepth: 2
@@ -26,35 +31,11 @@
 
 .. toctree::
   :maxdepth: 2
-  :caption: Leap
-  :name: _leap
+  :caption: Cloud Native
+  :name: _cloud_native
   :hidden:
 
-  dr_runbooks/dr_runbooks
-
-.. toctree::
-  :maxdepth: 2
-  :caption: Xi Epoch
-  :name: _epoch
-  :hidden:
-
-  epoch/epoch
-
-.. toctree::
-  :maxdepth: 2
-  :caption: Xi Beam
-  :name: _beam
-  :hidden:
-
-
-
-.. toctree::
-  :maxdepth: 2
-  :caption: Xi IoT
-  :name: _xiiot
-  :hidden:
-
-  xiiot/xiiot
+  buckets/buckets
 
 .. toctree::
   :maxdepth: 2
@@ -64,7 +45,11 @@
 
   appendix/glossary
   appendix/basics
+  appendix/container_basics
   taskman/taskman
+  tools_vms/linux_tools_vm_cloud-init
+  tools_vms/windows_tools_vm
+
 
 .. _getting_started:
 
@@ -80,7 +65,7 @@ What's New
 ++++++++++
 
 - Workshop updated for the following software versions:
-    - AOS & PC 5.10.x
+    - AOS & PC 5.11.x
 
 - Optional Lab Updates:
 
@@ -89,9 +74,10 @@ Agenda
 ++++++
 
 - Introductions
-- Prism Pro
-- Nutanix Calm
-- Nutanix Flow
+- Era
+- Karbon
+- Buckets
+- Cloud Native App
 
 Introductions
 +++++++++++++
