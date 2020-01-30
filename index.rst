@@ -79,7 +79,7 @@ Agenda
 - Era
 - Karbon
 - Buckets
-- Cloud Native App
+.. - Cloud Native App
 
 Introductions
 +++++++++++++
